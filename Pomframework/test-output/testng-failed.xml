@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.fbTest">
+        <methods>
+          <include name="afterTCexecution"/>
+          <include name="closeReports"/>
+          <include name="initReports"/>
+          <include name="fbtest"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.fbTest -->
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.FpTest">
+        <methods>
+          <include name="afterTCexecution"/>
+          <include name="closeReports"/>
+          <include name="initReports"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="fptest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.FpTest -->
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.Insttest">
+        <methods>
+          <include name="afterTCexecution"/>
+          <include name="closeReports"/>
+          <include name="initReports"/>
+          <include name="insttest"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.Insttest -->
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.GmailTest">
+        <methods>
+          <include name="afterTCexecution"/>
+          <include name="closeReports"/>
+          <include name="initReports"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="gmailtest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.GmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
